@@ -1,0 +1,8 @@
+filename = 'lesson03.py\practice02.txt'
+
+f = open(filename, 'r') 
+
+for line in f: 
+    print(line)
+
+f.close()
