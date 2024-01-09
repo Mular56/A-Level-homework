@@ -2,7 +2,7 @@
 #- студентів, які навчаються у двох та більше групах
 #- студентів, які не навчаються на фронтенді
 #- студентів, які вивчають Python або Java
-
+ 
 student_data = {
     'John Smith': ['Python', 'FrontEnd', 'Java'],
     'Alice Johnson': ['FullStack'],
