@@ -6,7 +6,7 @@ def my_sum(list_of_numbers):
     
     total_sum = 0
     for number in list_of_numbers:
-        total_sum += number
+        total_sum += number 
     return total_sum
 
 
