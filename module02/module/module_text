@@ -18,6 +18,8 @@ INSERT INTO users (name, pwd, email, gender) VALUES
 
 SELECT  'This is ' || name || ', ' ||  CASE WHEN gender = 'm' THEN 'he' ELSE 'she' END || ' has email ' || email AS info  FROM users;
 
+//(не змогла вкласти його в один стовпчик, пробувала і через lines, ш просто через кому)
+
 
 SELECT v.name, COUNT (w.id) AS words FROM vocabulary v JOIN word w ON v.id = w.vocabulary_id GROUP BY v.name;
 
