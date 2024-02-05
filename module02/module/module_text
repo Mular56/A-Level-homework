@@ -6,7 +6,6 @@ CREATE TABLE users (
     gender CHAR(1)
 );
 
-![](images/1.jpg)
 
 INSERT INTO users (name, pwd, email, gender) VALUES
     ('Vasya', '21341234qwfsdf', 'mmm@mmail.com', 'm'),
@@ -16,12 +15,9 @@ INSERT INTO users (name, pwd, email, gender) VALUES
     ('Jenny', 'SmakeMyb', 'eachup@gmail.com', 'f'),
     ('Lora', 'burn23', 'tpicks@gmail.com', 'f');
 
-![](images/2.jpg)
 
 SELECT  'This is ' || name || ', ' ||  CASE WHEN gender = 'm' THEN 'he' ELSE 'she' END || ' has email ' || email AS info  FROM users;
 
-![](images/3.jpg)
 
 SELECT v.name, COUNT (w.id) AS words FROM vocabulary v JOIN word w ON v.id = w.vocabulary_id GROUP BY v.name;
 
-![](images/4.jpg)
